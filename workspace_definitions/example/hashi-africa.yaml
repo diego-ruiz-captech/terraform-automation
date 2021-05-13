@@ -1,5 +1,5 @@
 version: "1"
-aws_account_id: "353444730604"
+aws_account_id: "398704466486"
 use_main_aws_credentials: true
 use_main_vcs_credentials: true
 workspace:

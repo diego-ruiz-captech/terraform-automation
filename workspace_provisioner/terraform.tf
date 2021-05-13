@@ -12,5 +12,10 @@ terraform {
       source  = "hashicorp/null"
       version = "3.0.0"
     }
+    
+    tfe = {
+      source = "hashicorp/tfe"
+      version = "0.25.2"
+    }
   }
 }
