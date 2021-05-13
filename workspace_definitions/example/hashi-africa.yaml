@@ -9,7 +9,7 @@ workspace:
   working_directory: ""
   terraform_version: "0.14.0"
   vcs_repo:
-    identifier: "phzietsman/terraform-aws-sample-deployment"
+    identifier: "druiz-captech/terraform-aws-sample-deployment"
     branch: "main"
     oauth_token_id: ""
   trigger_prefixes:
@@ -18,13 +18,13 @@ workspace:
     default:
       - key: "region"
         description: "The default region for the application / deployment"
-        value: eu-west-1
+        value: us-east-1
       - key: "environment"
         description: "Will this deploy a development (dev) or production (prod) environment"
         value: dev
       - key: "code_repo"
         description: "Points to the source code used to deploy the resources {{repo}}:{{branch}}"
-        value: "phzietsman/terraform-aws-sample-deployment:main"
+        value: "druiz-captech/terraform-aws-sample-deployment:main"
       - key: "namespace"
         description: "Used to identify which part of the application these resources belong to (auth, infra, api, web, data)"
         value: infra 
@@ -44,10 +44,10 @@ workspace:
         value: rnd
       - key: "owner"
         description: "Used to find resources owners, expects an email address"
-        value: "paul@cloudandthings.io"
+        value: "druiz@captechconsulting.com"
     terraform: 
       - key: "assume_role_arn"
-        value: "arn:aws:iam::353444730604:role/AWSControlTowerExecution"
+        value: "arn:aws:iam::398704466486:role/ADFS-GoldmanSachs-Admin"
         description: ""
         sensitive: false
         hcl: false
