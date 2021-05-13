@@ -6,7 +6,7 @@ variable "tfe_organization" {
 variable "default_terraform_version" {
   type        = string
   description = "The default terraform version for workspaces"
-  default     = "0.14.0"
+  default     = "0.15.3"
 }
 
 variable "oauth_token_id" {

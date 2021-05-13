@@ -7,7 +7,7 @@ workspace:
   workspace_description: "sample terraform deployment"
   auto_apply: False
   working_directory: ""
-  terraform_version: "0.14.0"
+  terraform_version: "0.15.3"
   vcs_repo:
     identifier: "druiz-captech/terraform-aws-sample-deployment"
     branch: "main"
