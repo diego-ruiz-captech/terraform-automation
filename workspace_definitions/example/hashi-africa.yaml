@@ -9,7 +9,7 @@ workspace:
   working_directory: ""
   terraform_version: "0.15.3"
   vcs_repo:
-    identifier: "druiz-captech/terraform-aws-sample-deployment"
+    identifier: "diego-ruiz-captech/terraform-aws-sample-deployment"
     branch: "main"
     oauth_token_id: ""
   trigger_prefixes:
@@ -24,7 +24,7 @@ workspace:
         value: dev
       - key: "code_repo"
         description: "Points to the source code used to deploy the resources {{repo}}:{{branch}}"
-        value: "druiz-captech/terraform-aws-sample-deployment:main"
+        value: "diego-ruiz-captech/terraform-aws-sample-deployment:main"
       - key: "namespace"
         description: "Used to identify which part of the application these resources belong to (auth, infra, api, web, data)"
         value: infra 
